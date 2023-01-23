@@ -1,7 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit'
+import authReducer from '../features/auth/authSlice'
+//import usageReducer from '../features/goals/goalSlice'
 
 export const store = configureStore({
   reducer: {
-    // Add the generated reducer as a specific top-level slice
+    auth: authReducer
+    //usages: usageReducer,
   },
-});
+})
