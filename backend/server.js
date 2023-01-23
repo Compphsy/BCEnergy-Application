@@ -9,16 +9,14 @@ const connectDB = require('./config/db');
 connectDB();
 
 app.use(express.json());
-
-app.use(express.urlencoded({ extended: true }));
-
+app.use(express.urlencoded({ extended: false }));
 app.use('/api/usage', require('./routes/usageRoutes'));
 app.use('/api/users', require('./routes/userRoutes'));
-
 app.use(errorHandler);
-
-
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
+
+
+
 

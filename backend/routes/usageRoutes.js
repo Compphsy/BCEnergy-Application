@@ -3,21 +3,11 @@ const express = require('express')
 const router = express.Router()
 
 const {
-    getUsage,
-    setUsage,
-    updateUsage,
-    deleteUsage
-} = require('../controller/usageController')
+    getUsage
+} = require('../controllers/usageController')
+const { protect } = require('../middleware/authMiddleware')
 
 
-
-router.get('/', getUsage)
-
-router.post('/', setUsage)
-
-router.put('/:id', updateUsage)
-
-
-router.delete('/:id', deleteUsage)
+router.get('/', protect, getUsage)
 
 module.exports = router
