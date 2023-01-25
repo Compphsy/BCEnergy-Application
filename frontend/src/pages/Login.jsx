@@ -62,7 +62,7 @@ function Login() {
         <h1>
           <FaSignInAlt /> Login
         </h1>
-        <p>Login and start setting goals</p>
+        <p>Login to view your blockchain energy dashboard</p>
       </section>
 
       <section className='form'>

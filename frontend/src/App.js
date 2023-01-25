@@ -12,7 +12,7 @@ function App() {
         <div className="container">
         <Header/>
         <Routes>
-          <Route path="/Dashboard" element={<Dashboard/>}/>
+          <Route path="/" element={<Dashboard/>}/>
           <Route path="/register" element={<Register/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/payment" element={<Payment/>}/>

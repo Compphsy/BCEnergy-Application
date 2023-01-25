@@ -4,7 +4,6 @@ const Usage = require('../models/usageModel')
 const getUsage = asyncHandler( async (req, res) => {  
     // find usage by id
     const usage = await Usage.findById(req.user._id);
-    console.log(usage)
     if (usage) {
         res.json(usage.data)
     }
@@ -14,8 +13,6 @@ const getUsage = asyncHandler( async (req, res) => {
     }
    }
 )
-
-
    module.exports = {
        getUsage
    }
