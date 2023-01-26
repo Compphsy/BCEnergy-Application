@@ -9,27 +9,24 @@ import TotalCost from '../components/TotalCost';
 function Dashboard() {
   const navigate = useNavigate()
   const dispatch = useDispatch()
-
   const { user } = useSelector((state) => state.auth)
   const { usages, isLoading, isError, message } = useSelector(
     (state) => state.usages
   )
+  if (!user) {
+    return null;
+}
   useEffect(() => {
     if (isError) {
       console.log(message)
     }
-
     if (!user) {
-
         navigate('/login')
     }
-
     dispatch(getUsages())
-
     return () => {
       dispatch(reset())
     }
-
   }, [user, navigate, isError, message, dispatch])
 
   if (isLoading) {
@@ -47,9 +44,10 @@ function Dashboard() {
         {usages.length > 0 ? (
           <div className='usages'>
             <TotalCost key={usages._id} usages={usages}/>
-            <table className='usage-table'>
+            <table className="usagetable">
               <thead>
-                <td>Timestamp</td>
+                <td>Date</td>
+                <td>Time</td>
                 <td>Power</td>
               </thead>
               <tbody>
@@ -58,10 +56,12 @@ function Dashboard() {
             ))}
             </tbody>
             </table>
-            
           </div>
         ) : (
-          <h3>You have not set any usages</h3>
+          <>
+          <h3>We have not connected your smart meter yet</h3>
+          <h2>Please review your smart meter number </h2>
+          </>
         )}
 
       </section>
