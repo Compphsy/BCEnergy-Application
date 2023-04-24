@@ -7,7 +7,7 @@ NODE_ENV = [development or production]
 
 port = [Port number for  backend]
 
-MONGO_URI = [Mongo Atlas or Mngo Compass URI]
+MONGO_URI = [MongoDB Atlas or MongoDB Compass URI]
 
 JWT_SECRET= [Add secret key]
 
