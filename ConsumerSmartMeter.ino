@@ -12,7 +12,7 @@ const char* password = "***************";
 unsigned long Epoch_Time;
 IPAddress serverIP(192, 168, 1, 102); // change to your laptop id
 int serverPort = 3010; // add port numb
-const String uid = "63c9e552ee911ffb95e804ae";
+const String uid = "63c9e552ee911ffb95e804ae"; // used to idetify smart meter in MongoDB
 float current_A = 0.8;
 float busvoltage = 5.0;
 float Ah = 8.9;
