@@ -31,7 +31,7 @@ unsigned long intervalDisplay = 10000;
 // LED blink
 bool led = false;
 // UID
-const char* uid = "63c9e50eee911ffb95e804ab";
+const char* uid = "63c9e50eee911ffb95e804ab"; // This is used to identify the the smart meter in the mongoDB
 void setup() {
     // start serial
     Serial.begin(9600);
