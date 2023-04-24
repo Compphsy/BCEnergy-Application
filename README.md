@@ -14,4 +14,4 @@ JWT_SECRET= [Add secret key]
 JWT_COOKIE_EXPIRE = [set number of dasy before cocckie expires]
 
 
-This code is accompanied by the smart meter prototype code under the name BCEnergy-Smart-Meter
+The application is accompanied by a smart meter prototype and the code & schematic can be found in the folder Smart Meter Prototype.
