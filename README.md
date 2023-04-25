@@ -69,18 +69,16 @@ If you would like to contribute to the project, please follow these steps:
 <ol>
 
 <h2>Roadmap</h2>
-
-Add functionality so that the smart meter is recognised from the user "smart meter id" input unstead of mondogDB User collections id object.
-
-Add support for energy generation, distribution and transmission.
-
-Improve the user interface
-
-Add support for more currencies
+<ul>
+<li>Add functionality so that the smart meter is recognised from the user "smart meter id" input unstead of mondogDB User collections id object.</li>
+<li>Add support for energy generation, distribution and transmission.</li>
+<li>Improve the user interface.</li>
+<li>Add support for more currencies.</li>
+</ul>
 
 <h2>License</h2>
 
-This project is licensed under the MIT License.
+  <p>This project is licensed under the MIT License. </p>
 
 
 <h1>Smart Meter Prototype</h1>
