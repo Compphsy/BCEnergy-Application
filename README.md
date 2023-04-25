@@ -1,20 +1,30 @@
-<h1>BCEnergy-Application</h1>
+<h1>Introduction</h1>
 
-BCEnergy-Application is an Ethereum-based MERN stack energy trading platform that allows consumers and prosumers to buy and sell energy using smart contracts. The platform also includes a smart meter prototype, which can be used to monitor energy usage and track energy transactions.
+<p>In recent years, there has been a growing interest in the development of blockchain-based applications in various industries, including energy. Blockchain technology can help create a more transparent and secure energy trading platform that allows consumers and prosumers to buy and sell energy using smart contracts. As part of my dissertation an energy trading platform that will utilise blockchain and smar contracts will be created using hardware and software.</p>
 
-  <h2>Features</h2>
+<h1>Blockchain Energy-Application</h1>
+<p>Blockchain Energy-Application is an Ethereum-based MERN stack energy trading platform that provides a decentralized and secure environment for energy trading. The platform allows consumers and prosumers to trade energy using smart contracts, which are executed automatically once the terms of the contract are met. 
+The platform also includes a smart meter prototype, which can be used to monitor energy usage and track energy transactions. The smart meter prototype is connected to the mongDb until reconcilation of the usage data to the blockchain, which ensures the accuracy and transparency of the data collected.</p>
 
-Buy and sell energy using smart contracts
+<p>The energy usage data is stored in the smart contract, which allows for real-time tracking of energy consumption and billing. This provides consumers and prosumers with a more accurate and transparent view of their energy usage, and eliminates the need for traditional energy billing methods.</p>
 
-Monitor energy usage with the smart meter prototype
+<h1>Features</h1>
 
-View transaction history and energy usage data
+<p>Blockchain Energy-Application offers several features, including:</p>
+<ol>
+  <li>Decentralized and secure energy trading platform</li>
+  <li>Smart meter prototype for real-time monitoring of energy usage</li>
+  <li>Automatic execution of smart contracts</li>
+  <li>Real-time tracking of energy consumption and billing</li>
+</ol>
 
-Running the Application
+
+
+<h2>Running the Application</h2>
 
 To run the application, follow these steps:
 
-Set up a .env file:
+1.Set up a .env file:
 ***************************************************************
 <ol>
   <li>NODE_ENV = [development or production]</li>
@@ -25,11 +35,12 @@ Set up a .env file:
 </ol>
 ***************************************************************
 
-Start the backend server using "npm run server"
+2. Start the backend server using "npm run server"
 
-Start the frontend client using "npm run client"
+3. Start the frontend client using "npm run client"
 
-Start both using 'npm run dev'
+4. Or start both using 'npm run dev'
+
 
 <h2>Technologies Used:</h2>
 <ol>
