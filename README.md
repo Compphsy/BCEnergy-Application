@@ -68,7 +68,7 @@ If you would like to contribute to the project, please follow these steps:
   <li>Submit a pull request</li>
 </ol>
   
-<h1>Roadmap</h1>
+<h2>Roadmap</h2>
 <ul>
   <li>Add functionality so that the smart meter is recognised from the user "smart meter id" input unstead of mondogDB User collections id object.</li>
   <li>Add support for energy generation, distribution and transmission.</li>
