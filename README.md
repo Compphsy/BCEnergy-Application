@@ -1,4 +1,4 @@
-Introduction
+<h1>Introduction</h1>
 
 <p>In recent years, blockchain technology has gained increasing attention for its potential to create transparent and secure applications in various industries, including energy. By leveraging blockchain's decentralized and immutable nature, it is possible to develop a more efficient and trustworthy energy trading platform that enables consumers and prosumers to buy and sell energy using smart contracts. As part of my dissertation, I have created an energy trading platform that utilizes blockchain and smart contracts, incorporating both hardware and software components. This platform aims to provide a secure, scalable, and sustainable solution for energy trading while promoting the adoption of renewable energy sources.</p>
 
