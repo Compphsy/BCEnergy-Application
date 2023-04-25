@@ -1,6 +1,6 @@
-<h1>Introduction</h1>
+Introduction
 
-<p>In recent years, there has been a growing interest in the development of blockchain-based applications in various industries, including energy. Blockchain technology can help create a more transparent and secure energy trading platform that allows consumers and prosumers to buy and sell energy using smart contracts. As part of my dissertation an energy trading platform that will utilise blockchain and smar contracts will be created using hardware and software.</p>
+<p>In recent years, blockchain technology has gained increasing attention for its potential to create transparent and secure applications in various industries, including energy. By leveraging blockchain's decentralized and immutable nature, it is possible to develop a more efficient and trustworthy energy trading platform that enables consumers and prosumers to buy and sell energy using smart contracts. As part of my dissertation, I have created an energy trading platform that utilizes blockchain and smart contracts, incorporating both hardware and software components. This platform aims to provide a secure, scalable, and sustainable solution for energy trading while promoting the adoption of renewable energy sources.</p>
 
 <h1>Blockchain Energy-Application</h1>
 <p>Blockchain Energy-Application is an Ethereum-based MERN stack energy trading platform that provides a decentralized and secure environment for energy trading. The platform allows consumers and prosumers to trade energy using smart contracts, which are executed automatically once the terms of the contract are met. 
