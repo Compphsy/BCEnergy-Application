@@ -40,6 +40,8 @@ The platform also includes a smart meter prototype, which can be used to monitor
   <li>Run npm install to install the project's dependencies.</li>
   <li>Start the server using npm run dev.</li>
   <li>Open a web browser and navigate to http://localhost:PORT to access the application.</li>
+  <li>If MetaMask is not installed the broswer extension will need to be added.</li>
+  <li>If running in development mode, truffle ganache can be used to imitate the main ethereum blockchain.</li> 
 </ol>
 
 
