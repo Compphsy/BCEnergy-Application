@@ -29,33 +29,21 @@ Start the frontend client using "npm run client"
 
 Start both using 'npm run dev'
 
-<h2>Technologies Used</h2>
-
-Ethereum
-
-React
-
-Node.js
-
-MongoDB
-
-Express
-
-Axios
-
-Toastify
-
-MetaMask
-
-Truffle ganache
-
-Remix IDE
-
-Aruino IDE
-
-VS Code
-
-
+<h2>Technologies Used:</h2>
+<ol>
+  <li>Ethereum</li>
+  <li>React</li>
+  <li>Node.js</li>
+  <li>MongoDB</li>
+  <li>Express</li>
+  <li>Axios</li>
+  <li>Toastify</li>
+  <li>MetaMask</li>
+  <li>Truffle ganache</li>
+  <li>Remix IDE</li>
+  <li>Aruino IDE</li>
+  <li>VS Code</li>
+</ol>
 <h2>Contributing</h2>
 
 If you would like to contribute to the project, please follow these steps:
@@ -69,7 +57,7 @@ Submit a pull request
 
 <h2>Roadmap</h2>
 
-Add functionality so that the smar meter is recognised from the user "smart meter id" input unstead of mondogDB User collections id object
+Add functionality so that the smar meter is recognised from the user "smart meter id" input unstead of mondogDB User collections id object.
 
 Add support for energy generation, distribution and transmission.
 
