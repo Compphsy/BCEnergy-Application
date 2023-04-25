@@ -11,12 +11,12 @@ The platform also includes a smart meter prototype, which can be used to monitor
 <h1>Features</h1>
 
 <p>Blockchain Energy-Application offers several features, including:</p>
-<ol>
+<ul>
   <li>Decentralized and secure energy trading platform</li>
   <li>Smart meter prototype for real-time monitoring of energy usage</li>
   <li>Automatic execution of smart contracts</li>
   <li>Real-time tracking of energy consumption and billing</li>
-</ol>
+</ul>
 
 
 
@@ -45,7 +45,7 @@ The platform also includes a smart meter prototype, which can be used to monitor
 
 
 <h2>Technologies Used:</h2>
-<ol>
+<ul>
   <li>Ethereum</li>
   <li>React</li>
   <li>Node.js</li>
@@ -58,21 +58,19 @@ The platform also includes a smart meter prototype, which can be used to monitor
   <li>Remix IDE</li>
   <li>Aruino IDE</li>
   <li>VS Code</li>
-</ol>
+</ul>
 <h2>Contributing</h2>
 
 If you would like to contribute to the project, please follow these steps:
-
-Fork the repository
-
-Make your changes
-
-Submit a pull request
-
+<ol>
+  <li>Fork the repository</li>
+  <li>Make your changes</li>
+  <li>Submit a pull request</li>
+<ol>
 
 <h2>Roadmap</h2>
 
-Add functionality so that the smar meter is recognised from the user "smart meter id" input unstead of mondogDB User collections id object.
+Add functionality so that the smart meter is recognised from the user "smart meter id" input unstead of mondogDB User collections id object.
 
 Add support for energy generation, distribution and transmission.
 
@@ -104,4 +102,4 @@ This project is licensed under the MIT License.
 <h2>Integrating with BCEnergy-Application:</h2>
 
 1. When the smart meter prototype is set up and connected to the network, open the BCEnergy-Application.
-6. The application will now display the real-time energy usage data from the smart meter prototype.
+2. The application will now display the real-time energy usage data from the smart meter prototype.
