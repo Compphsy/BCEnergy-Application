@@ -35,11 +35,15 @@ To run the application, follow these steps:
 </ol>
 ***************************************************************
 
-2. Start the backend server using "npm run server"
+2. Open a terminal and navigate to the project directory.
 
-3. Start the frontend client using "npm run client"
+3. Run npm install to install the project's dependencies.
 
-4. Or start both using 'npm run dev'
+4. Start the backend server using "npm run server"
+
+5. Start the frontend client using "npm run client"
+
+6. Or start both using 'npm run dev'
 
 
 <h2>Technologies Used:</h2>
