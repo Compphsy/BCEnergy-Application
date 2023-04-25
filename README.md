@@ -101,6 +101,6 @@ If you would like to contribute to the project, please follow these steps:
 </ol>
 <h2>Integrating with BCEnergy-Application:</h2>
 <ol>
-  <i> When the smart meter prototype is set up and connected to the network, open the BCEnergy-Application.</li>
+  <li>When the smart meter prototype is set up and connected to the network, open the BCEnergy-Application.</li>
   <li> The application will now display the real-time energy usage data from the smart meter prototype.</li>
 </ol>
