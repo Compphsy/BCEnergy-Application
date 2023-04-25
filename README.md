@@ -16,11 +16,13 @@ To run the application, follow these steps:
 
 Set up a .env file:
 ***************************************************************
-NODE_ENV = [development or production]
-port = [Port number for  backend]
-MONGO_URI = [MongoDB Atlas or MongoDB Compass URI]
-JWT_SECRET= [Add secret key]
-JWT_COOKIE_EXPIRE = [set number of dasy before cocckie expires]
+<ol>
+  <li>NODE_ENV = [development or production]</li>
+  <li>port = [Port number for backend]</li>
+  <li>MONGO_URI = [MongoDB Atlas or MongoDB Compass URI]</li>
+  <li>JWT_SECRET = [Add secret key]</li>
+  <li>JWT_COOKIE_EXPIRE = [set number of days before cookie expires]</li>
+</ol>
 ***************************************************************
 
 Start the backend server using "npm run server"
