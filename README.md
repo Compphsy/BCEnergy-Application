@@ -22,28 +22,26 @@ The platform also includes a smart meter prototype, which can be used to monitor
 
 <h2>Running the Application</h2>
 
-To run the application, follow these steps:
+<p>To run the application, follow these steps:</p>
 
-1.Set up a .env file:
-***************************************************************
+
 <ol>
-  <li>NODE_ENV = [development or production]</li>
-  <li>port = [Port number for backend]</li>
-  <li>MONGO_URI = [MongoDB Atlas or MongoDB Compass URI]</li>
-  <li>JWT_SECRET = [Add secret key]</li>
-  <li>JWT_COOKIE_EXPIRE = [set number of days before cookie expires]</li>
+  <li>Clone the repository to your local machine.</li>
+  <li>Set up a MongoDB Atlas or Compass account and create a new cluster.</li>
+  <li>Create a .env file in the root directory with the following variables:</li>
+      <ul>
+        <li>NODE_ENV = [development or production]</li>
+        <li>port = [Port number for backend]</li>
+        <li>MONGO_URI = [MongoDB Atlas or MongoDB Compass URI]</li>
+        <li>JWT_SECRET = [Add secret key]</li>
+        <li>JWT_COOKIE_EXPIRE = [set number of days before cookie expires]</li>
+      </ul>
+  <li>Open a terminal and navigate to the project directory.</li>
+  <li>Run npm install to install the project's dependencies.</li>
+  <li>Start the server using npm run dev.</li>
+  <li>Open a web browser and navigate to http://localhost:PORT to access the application.</li>
 </ol>
-***************************************************************
 
-2. Open a terminal and navigate to the project directory.
-
-3. Run npm install to install the project's dependencies.
-
-4. Start the backend server using "npm run server"
-
-5. Start the frontend client using "npm run client"
-
-6. Or start both using 'npm run dev'
 
 
 <h2>Technologies Used:</h2>
