@@ -85,19 +85,22 @@ If you would like to contribute to the project, please follow these steps:
 
 <h2>Hardware Setup:</h2>
 
-1. Connect the INA219 power sensor to the ESP8266 dev board as shown in the schematic diagram provided in the Smart Meter Prototype folder.
-2. Connect the ESP8266 dev board to your computer using a USB cable.
+<ol>
+<li> Connect the INA219 power sensor to the ESP8266 dev board as shown in the schematic diagram provided in the Smart Meter Prototype folder.</li>
+<li> Connect the ESP8266 dev board to your computer using a USB cable. </li>
+</ol>
 
 <h2>Software Setup:</h2>
-
-1. Open the Arduino IDE on your computer.
-2. Select the correct board and port from the Tools menu.
-3. Open the ConsumerSmartMeter.ino or the ProsumerSmartMeter.ino sketch from the Smart Meter Prototype folder.
-4. Update the variables in the sketch to match your network settings and your BCEnergy-Application's IP address.
-5. Copy the users objectID from the MongoDB Users ccollection to the UUID in the sketch.
-6. Open the Serial Monitor in the Arduino IDE to view the output from the ESP8266 dev board.
-
+<ol>
+  <li> Open the Arduino IDE on your computer. </li>
+  <li> Select the correct board and port from the Tools menu. </li>
+  <li> Open the ConsumerSmartMeter.ino or the ProsumerSmartMeter.ino sketch from the Smart Meter Prototype folder. </li>
+  <li> Update the variables in the sketch to match your network settings and your BCEnergy-Application's IP address. </li>
+  <li> Copy the users objectID from the MongoDB Users ccollection to the UUID in the sketch. </li>
+  <li> Open the Serial Monitor in the Arduino IDE to view the output from the ESP8266 dev board.</li>
+</ol>
 <h2>Integrating with BCEnergy-Application:</h2>
-
-1. When the smart meter prototype is set up and connected to the network, open the BCEnergy-Application.
-2. The application will now display the real-time energy usage data from the smart meter prototype.
+<ol>
+  <i> When the smart meter prototype is set up and connected to the network, open the BCEnergy-Application.</li>
+  <li> The application will now display the real-time energy usage data from the smart meter prototype.</li>
+</ol>
